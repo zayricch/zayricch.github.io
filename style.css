@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 4px 15px 4px 8px;
+    text-align: left;
+    vertical-align: top;
+    border: 0px solid #ddd;
+    margin: 0;
+}
+
+td {
+    background-color: #dedede;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.b_left {
+    border-bottom-left-radius: 10px;
+}
+
+.b_right {
+    border-bottom-right-radius: 10px;
+}
+
+.t_right {
+    border-top-right-radius: 10px;
+}
+
+.t_left {
+    border-top-left-radius: 10px;
+}
+
